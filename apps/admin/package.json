@@ -1,0 +1,15 @@
+{
+  "name": "@stellar-polyphony/admin",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stellar-polyphony/types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
